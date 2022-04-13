@@ -1,0 +1,18 @@
+@import "./config";
+@import "./utilities";
+@import "./navbar";
+@import "./header";
+@import "./mediaqueries";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: $font-1;
+}
+a {
+    color: $color-3;
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+.header {
+    background-image: url("../assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-family: $font-1;
+        font-style: italic;
+        margin-bottom: 1.6rem;
+        font-size: 3rem;
+    }
+    h1 {
+        font-family: $font-2;
+        font-size: 5rem;
+        margin-bottom: 1.6rem;
+        text-transform: uppercase;
+    }
+    a {
+        text-transform: uppercase;
+        font-family: $font-2;
+        font-size: 2rem;
+        font-weight: bold;
+        background: $color-2;
+        padding: 1.25rem 2.5rem;
+        border-radius: 5px;
+    }
+}
